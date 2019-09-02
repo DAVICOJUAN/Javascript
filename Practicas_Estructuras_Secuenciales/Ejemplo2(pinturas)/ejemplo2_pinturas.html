@@ -26,17 +26,28 @@
                     <div class="form-group">
                         <label for="">Ingresa el costo por metro cuadrado</label>
                         <input type="number" name="" id="costo_mtcuadrados" class="form-control" placeholder="Ingresa el precio por metro cuadrado" aria-describedby="helpId">
-                        <small id="helpId" class="text-muted">Help text</small>
+
                     </div>
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row mt-2">
                 <div class="class-12">
                     <!--b4-button-block-->
-                    <button type="button" name="" id="" class="btn btn-primary btn-lg btn-block">Calcular Precio</button>
+                    <button type="button" name="" id="btnCalcular" class="btn btn-primary btn-lg btn-block">Calcular Costo</button>
                 </div>
             </div>
+
+            <div class="row mt-2">
+                <div class="col-12">
+                    <div class="alert alert-success text-center" role="alert">
+                        <h4 class="alert-heading">El costo por metro cuadrado es:</h4>
+                        <p id="resultado"></p>
+                        <p class="mb-0"></p>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 
