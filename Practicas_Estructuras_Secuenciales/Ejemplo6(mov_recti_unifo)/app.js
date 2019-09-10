@@ -1,5 +1,8 @@
 let btnCalcular = document.getElementById('btnCalcular');
-btnCalcular.addEventListener('click', calculo);
+
+function EventListener() {
+    btnCalcular.addEventListener('click', calculo);
+}
 
 function calculo() {
     let velocidad_movil = document.getElementById('velocidad_movil').value;

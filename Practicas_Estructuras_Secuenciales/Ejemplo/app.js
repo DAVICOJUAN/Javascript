@@ -12,7 +12,7 @@ function suma() {
     let numero1 = document.getElementById('Numero1').value;
     let numero2 = document.getElementById('Numero2').value;
 
-    //Se reasigna el valor de la variaable numero2 convirtiendolo de String a Numero.
+    //Se reasigna el valor de la variaable numero2 convirtiendolo de String a Numero.(♦)
     numero1 = Number(numero1);
     numero2 = Number(numero2);
 

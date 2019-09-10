@@ -5,48 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ejemplo Movimiento Rectilineo Uniforme</title>
+    <title>Almacenes Don Baratón</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
 </head>
 
 <body>
-
     <div class="container">
         <div class="jumbotron">
-
             <div class="row">
-                <div class="col-12">
+                <div class="col-6">
                     <div class="form-group">
-                        <label for="">Ingresa la velocidad del móvil (metro/segundo):</label>
-                        <input type="number" name="" id="velocidad_movil" class="form-control" placeholder="Ingresa la velocidad del móvil" aria-describedby="helpId">
+                        <label for="">Precio del traje a comprar:</label>
+                        <input type="number" name="" id="precio_traje" class="form-control" placeholder="Ingrese precio del traje (Números enteros positivo)" aria-describedby="helpId">
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="form-group">
-                        <label for="">Ingresa el tiempo de recorrido total del móvil:</label>
-                        <input type="number" name="" id="tiempo_movil" class="form-control" placeholder="Ingresa el tiempo total en que el móvil termina el recorrido" aria-describedby="helpId">
-                    </div>
+                <div class="col-6">
+                    <button type="button" name="" id="btnCalcular" class="btn btn-primary btn-lg btn-block">Determinar precio final</button>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12">
-                    <button type="button" name="" id="btnCalcular" class="btn btn-primary btn-lg btn-block">Calcular la distancia recorrida</button>
-                </div>
-            </div>
-
-            <div class="row mt-2">
-                <div class="col-12">
+                <div class="col-6">
                     <div class="alert alert-success" role="alert">
-                        <h4 class="alert-heading">Distancia recorrida por el móvil:</h4>
+                        <h4 class="alert-heading"></h4>
                         <p id="resultado"></p>
                         <p class="mb-0"></p>
                     </div>
                 </div>
+                <div class="col-6">
+                    <div class="alert alert-success" role="alert">
+                        <h4 class="alert-heading"></h4>
+                        <p id="precio_total"></p>
+                        <p class="mb-0"></p>
+                    </div>
+                </div>
             </div>
-
         </div>
     </div>
 
