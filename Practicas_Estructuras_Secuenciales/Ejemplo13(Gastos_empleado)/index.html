@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Gastos de Empleadoo</title>
+    <title>Gastos de Empleado</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
@@ -13,10 +13,40 @@
 
     <div class="container">
         <div class="jumbotron">
+
             <div class="row">
-                <div class="col-12">
+                <div class="col-4">
+                    <div class="form-group">
+                        <label for="">¿Días de estancia en hotel?</label>
+                        <input type="number" name="" id="estancia" class="form-control" placeholder="Ingrese número de días" aria-describedby="helpId">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="form-group">
+                        <label for="">¿Costo de noche en hotel?</label>
+                        <input type="number" name="" id="costo_noche" class="form-control" placeholder="Precio estancia por noche" aria-describedby="helpId">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="form-group">
+                        <label for="">¿Costo de comida por día?</label>
+                        <input type="number" name="" id="costo_comida" class="form-control" placeholder="Costo de comidas por día" aria-describedby="helpId">
+                    </div>
                 </div>
             </div>
+            <div class="row mt-2">
+                <div class="col-6">
+                    <button type="button" name="" id="btnCalcular" class="btn btn-primary btn-lg btn-block">Calcular monto</button>
+                </div>
+                <div class="col-6">
+                    <div class="alert alert-success" role="alert">
+                        <h4 class="alert-heading"></h4>
+                        <p id="imprimir"></p>
+                        <p class="mb-0"></p>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
