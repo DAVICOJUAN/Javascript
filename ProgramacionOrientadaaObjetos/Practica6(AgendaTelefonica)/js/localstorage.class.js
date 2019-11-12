@@ -1,0 +1,6 @@
+class LocalStorage{
+    constructor (){}
+    SaveContactLocalStorage(){
+        
+    }
+}

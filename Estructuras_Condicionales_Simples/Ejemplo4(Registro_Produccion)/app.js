@@ -21,10 +21,10 @@ function calcular() {
     p_6 = Number(p_6);
     let suma = 0;
     suma = (p_1 + p_2 + p_3 + p_4 + p_5 + p_6);
-    let imprimirResltado = document.getElementById('resultado');
+    let imprimirResultado = document.getElementById('resultado');
     if (suma >= 100) {
-        imprimirResltado.innerHTML = 'Recibirá incentivo';
+        imprimirResultado.innerHTML = 'Recibirá incentivo';
     } else {
-        imprimirResltado.innerHTML = 'No Recibe incentivo';
+        imprimirResultado.innerHTML = 'No Recibe incentivo';
     }
 }
